@@ -1,0 +1,13 @@
+{
+  "name": "coding-hub-api",
+  "description": "A central website for all clubs and organizations on campus.",
+  "authors": "Coding Hub",
+  "private": true,
+  "workspaces": [
+    "functions"
+  ],
+  "scripts": {
+    "deploy": "firebase deploy",
+    "functions": "cd functions && yarn express"
+  }
+}
